@@ -1,0 +1,57 @@
+<div class="container-games br">
+  <h2 class="mb fw">Games</h2>
+
+  <div class="flex-search mb">
+    <div class="size-search-block-input">
+      <label class="pd_l-games" for="emailIn">Search Games</label>
+      <input [formControl]="formControl" class="display-block-games pd_l-friends size-search-input br" type="email" placeholder="Search Games" id="emailIn">
+    </div>
+
+    <button  (click)="search()" class="btn-search br">Search</button>
+  </div>
+
+  <div class="my_games size-block-games">
+    <h2 class="fw mb">Features Games</h2>
+
+    <div class="all-list-games">
+      <div class="games">
+        <div class="game br" *ngFor="let game of games">
+          <div class="preview">
+            <h2>{{ game.title }}</h2>
+            <h2 class="text-end">{{ game.price }} UAH</h2>
+          </div>
+          <div class="description">
+            <p>{{ game.description }}</p>
+            <button class="btn-games br">Add to Library</button>
+          </div>
+        </div>
+      </div>
+
+
+      <aside class="block-filter">
+        <h3 class="fw">Filter by price</h3>
+        <div>
+          <input class="size-input-range" type="range" id="price" name="price"
+                 min="0" max="100" value="90" step="10">
+          <label class="block-label" for="price">Any Price</label>
+        </div>
+        <h3 class="fw mb">Filter by tag</h3>
+
+        <label class="container-spec-checkbox">Indi
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container-spec-checkbox">Action
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+
+        <label class="container-spec-checkbox">Adventures
+          <input type="checkbox">
+          <span class="checkmark"></span>
+        </label>
+      </aside>
+    </div>
+   </div>
+</div>

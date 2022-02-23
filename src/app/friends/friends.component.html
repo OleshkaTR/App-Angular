@@ -1,0 +1,21 @@
+<div class="container-friends br">
+  <h2 class="mb fw">Friends</h2>
+
+  <div class="flex-search mb">
+    <div class="size-search-block-input">
+      <label class="pd_l-friends" for="emailIn">Search Friends</label>
+      <input [formControl]="formControl" class="display-block-friends pd_l-friends size-search-input br" type="email" placeholder="Search Friends" id="emailIn">
+    </div>
+
+    <button (click)="search()" class="btn-search br">Search</button>
+  </div>
+
+  <div class="my_friends size-block-friend">
+    <h2 class="fw">Search Friends: </h2>
+    <div class="flex-friend" *ngFor="let friend of friends">
+      <p>{{ friend }}</p>
+      <button class="btn-add br">Add Friend</button>
+    </div>
+  </div>
+
+</div>

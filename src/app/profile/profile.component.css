@@ -1,0 +1,54 @@
+.container-profile {
+  width: 320px;
+  height: 375px;
+  background: white;
+  margin: 210px auto;
+  padding: 20px;
+}
+
+.display-block-profile {
+  display: block;
+}
+
+.text-center-profile {
+  text-align: center;
+}
+
+.pos-text-profile {
+  margin-top: 30px;
+}
+
+.pd_l-profile {
+  padding-left: 10px;
+}
+
+.size-profile {
+  width: 182px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.size-btn-profile {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
+
+.mb-profile {
+  margin-bottom: 20px;
+}
+
+.w-input-profile {
+  width: 200px;
+}
+
+.margin-profile {
+  margin: 20px auto;
+}
+
+.btn-primary-profile {
+  background: #6C69FF;
+  font-size: 16px;
+  color: white;
+}

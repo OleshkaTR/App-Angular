@@ -1,0 +1,79 @@
+.container-sing_in {
+  width: 320px;
+  height: 340px;
+  background: white;
+  margin: 280px auto;
+  padding: 20px;
+}
+
+.display-block {
+  display: block;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pos-text {
+  margin-top: 40px;
+}
+
+.pos_img {
+  margin: 0 20px;
+}
+
+.pd_l {
+  padding-left: 10px;
+}
+
+.size {
+  width: 192px;
+  height: 30px;
+}
+
+.size-btn {
+  width: 200px;
+  height: 30px;
+  border: none;
+  border-radius: 2px;
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.w-input {
+  width: 200px;
+}
+
+.margin {
+  margin: 20px auto;
+}
+
+.btn-primary {
+  background: #6C69FF;
+  font-size: 16px;
+  color: white;
+}
+
+nav {
+  background: white;
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.5);
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  list-style: none;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+.active {
+  color: #6C69FF;
+}

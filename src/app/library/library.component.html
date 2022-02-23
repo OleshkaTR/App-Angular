@@ -1,0 +1,17 @@
+<div class="container-library br">
+  <h2 class="mb fw">Games</h2>
+
+  <div class="library">
+    <div class="game br" *ngFor="let game of games">
+      <div class="preview">
+        <h2 class="fw">{{ game.title }}</h2>
+      </div>
+      <div class="description">
+        <p>{{ game.description }}</p>
+        <button class="btn btn-library br">Download</button>
+        <button class="btn btn-share br">Share</button>
+      </div>
+    </div>
+  </div>
+
+</div>

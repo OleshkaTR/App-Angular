@@ -1,0 +1,87 @@
+.container-friends {
+  width: 1160px;
+  height: 100%;
+  background: white;
+  padding: 20px 60px 0;
+  margin: 64px auto 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.mb {
+  margin-bottom: 20px;
+}
+
+.fw {
+  font-weight: 400;
+}
+
+.display-block-friends {
+  display: block;
+}
+
+.pd_l-friends {
+  padding-left: 10px;
+}
+
+.flex-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+
+.size-search-block-input {
+  width: 91%;
+}
+
+.size-search-input {
+  width: 100%;
+  height: 30px;
+  border: 1px solid black;
+}
+
+.br {
+  border-radius: 4px;
+}
+
+.btn-search {
+  display: block;
+  width: 75px;
+  height: 36px;
+  background: #6C69FF;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+.my_friends {
+  margin-bottom: 20px;
+}
+
+.flex-friend {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  height: 30px;
+  width: 98%;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 20px;
+}
+
+.btn-remove {
+  width: 125px;
+  height: 30px;
+  background: #FF6F6F;
+  color: white;
+  border: none;
+}
+
+.btn-add {
+  width: 100px;
+  height: 30px;
+  background: #6C69FF;
+  color: white;
+  border: none;
+  font-size: 14px;
+  padding: 0;
+}
